@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EduGenie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>🧞 EduGenie</h1>
+    <p class="sub">Google Gemini Powered Learning Assistant</p>
+    <p class="badge">Demo mode: sample content, no live AI calls</p>
+
+    <label for="topic">Pick a topic</label>
+    <select id="topic"></select>
+
+    <div class="tabs">
+      <button data-tab="explain" class="active">Explain</button>
+      <button data-tab="quiz">Quiz</button>
+      <button data-tab="summary">Summary</button>
+    </div>
+    <section id="panel"></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
